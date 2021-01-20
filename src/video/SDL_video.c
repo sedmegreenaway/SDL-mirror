@@ -80,6 +80,9 @@ static VideoBootStrap *bootstrap[] = {
 #if SDL_VIDEO_DRIVER_PSP
     &PSP_bootstrap,
 #endif
+#if SDL_VIDEO_DRIVER_PSL1GHT
+    &PSL1GHT_bootstrap,
+#endif
 #if SDL_VIDEO_DRIVER_RPI
     &RPI_bootstrap,
 #endif 

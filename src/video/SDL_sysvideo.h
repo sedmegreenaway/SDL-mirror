@@ -363,6 +363,9 @@ extern VideoBootStrap Android_bootstrap;
 #if SDL_VIDEO_DRIVER_PSP
 extern VideoBootStrap PSP_bootstrap;
 #endif
+#if SDL_VIDEO_DRIVER_PSL1GHT
+extern VideoBootStrap PSL1GHT_bootstrap;
+#endif
 #if SDL_VIDEO_DRIVER_RPI
 extern VideoBootStrap RPI_bootstrap;
 #endif
